@@ -1,0 +1,23 @@
+<html>
+    <head></head>
+        <body>
+            <input type="button" value="login!" onclick="f1()">
+            <p id="msg"></p>
+            <script>
+                var option = true;
+                function f1()
+                {
+                    if(option==true)
+                    {
+                    var data = "<input type='text'><br><br><input type='text'>";
+                    document.getElementById("msg").innerHTML=data;
+                    option=false;
+                }
+                else{
+                    document.getElementById("msg").innerHTML=" ";
+                }
+                }
+            </script>
+        </body>
+    
+</html>
